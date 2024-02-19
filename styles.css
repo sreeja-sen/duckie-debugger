@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #a63c06;
+
+    font-family: "Kode Mono", monospace;
+    font-style: normal;
+
+    overflow: hidden;
+}
+
+#container {
+    max-width: 75vw;
+    margin: 5vh auto;
+    border-radius: 1.25rem;
+    padding: 5vh;
+    background-color: #fae580;
+    color: #1c1825;
+    border: 5px solid #732400;
+}
+
+#heading {
+    text-align: center;
+    margin: 1.25rem;
+    padding: 1.25rem;
+}
+
+#output {
+    height: 12.5rem;
+    overflow-y: scroll; 
+    scrollbar-width: none;   
+    margin-bottom: 5vh;
+    padding: 5vh;
+    background-color: #fbec9f;
+    border: 5px solid #a63c06;
+    font-family: inherit;
+    border-radius: 1.25rem;
+}
+
+#input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 5px solid #a63c06;
+    background-color: #e5b63d;
+    color: #1c1825;
+    font-family: inherit;
+    font-size: 15px;
+    border-radius: 1.25rem;
+}
+
+#input:focus {
+    outline: none;
+    border: 5px solid #732400;
+}
